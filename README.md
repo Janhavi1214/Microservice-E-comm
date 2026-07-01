@@ -30,7 +30,7 @@ A production-style e-commerce backend built with **Spring Boot 3.5 + Java 21**, 
                                   database: `shopping`
 ```
 
-**Inter-service communication:** OrderService calls CustomerService (`localhost:9001`) and ProductService (`localhost:9002`) via `RestTemplate` to assemble a rich `OrderVO` response — customer details + product details + order metadata — in a single API response.
+**Inter-service communication:** OrderService calls CustomerService (`localhost:9001`) and ProductService (`localhost:9002`) via `RestTemplate` to assemble a rich `OrderVO` response — customer details + product details + order metadata in a single API response.
 
 ---
 
